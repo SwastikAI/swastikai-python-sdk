@@ -1,0 +1,7 @@
+tests
+__pycache__
+cogency_sdk
+dist
+swastikai.egg-info
+build
+important.txt
