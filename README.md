@@ -1,6 +1,6 @@
 # SwastikAI
 
-This is the `official` Python SDK of SwastikAI. It allows you to easily create and/or retrieve memories for your AI agents. Whether you've one agent, a multi-agent system or an agent based on LLM or SLM - SwastikAI works seamlessly across platforms and irrespective of your choice of AI model as long as the memory requirement is in natural language. Visit https://swastikai.com. to get your API_KEY and grab some generous free usage credits.
+This is the `official` Python SDK of SwastikAI. It allows you to easily create and/or retrieve memories for your AI agents. Whether you've one agent, a multi-agent system or an agent based on LLM or SLM - SwastikAI works seamlessly across platforms and irrespective of your choice of AI model as long as the memory requirement is in natural language. Visit https://www.swastikai.com. to get your API_KEY and grab some generous free usage credits.
 
 ## Table of Contents
 
