@@ -144,7 +144,7 @@ Same as memory creation payload with one addition of `chat_history` parameter.
 }
 ```
 - *chat_history* (`list[dict]`) (`Optional`): A list of dictionaries containg the chat history.
-  1. The chat history should be in ascending order i.e. latest conversation at the last in the list."
+  1. The chat history should be in ascending order i.e. latest conversation at the last in the list.
   2. The only valid value for sender is `User` and `AI Agent` only and case sensitive.
   ```json
     [
