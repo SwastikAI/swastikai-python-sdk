@@ -13,7 +13,7 @@ This is the `official` Python SDK of SwastikAI. It allows you to easily create a
 
 ---
 
-<img src="https://raw.githubusercontent.com/SwastikAI/swastikai-python-sdk/main/assets/SwastikAI_workflow.png" alt="SwastikAI Workflow" width="600">
+<img src="https://raw.githubusercontent.com/SwastikAI/swastikai-python-sdk/main/assets/SwastikAI_workflow.png" alt="SwastikAI Workflow" width="1000">
 
 # Installation
 
