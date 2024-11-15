@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="swastikai",
-    version="1.0.5",
+    version="1.0.6",
     description="Official Python SDK for SwastikAI API",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",  # README format

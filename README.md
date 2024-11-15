@@ -8,6 +8,7 @@ This is the `official` Python SDK of SwastikAI. It allows you to easily create a
 - [Quick Start](#quick-start)
   - [Memory Creation](#memory-creation)
   - [Memory Retrieval](#memory-retrieval)
+  - [Check Account Balance](#check-account-balance)
   - [Async Requests](#async-requests)
 - [API Documentation](#api-documentation)
 
@@ -154,6 +155,14 @@ Same as memory creation payload with one addition of `chat_history` parameter.
       {"sender": "AI Agent", "message": "Sure, can you provide the order ID?"}
     ]
   ```
+
+## Check Account Balance
+A simple GET request to know the current credit balance
+```python
+response = memory_client.get_account_balance()
+print(response["credit_balance"])
+```
+
 
 ---
 

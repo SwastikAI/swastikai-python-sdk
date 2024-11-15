@@ -35,6 +35,9 @@ class personal_memory:
         await self.validate_payload(payload, retrievePersonalMemory)
         return await self.post(endpoint="retrieve-memory",json_payload=payload)
 
+    async def get_account_balance(self):
+        return await self.get(endpoint="get-account-balance")
+
     async def get(self, endpoint: str, params: Optional[Dict] = None) -> Any:
         """GET request that supports query parameters."""
         return await self._request("GET", endpoint, params=params)

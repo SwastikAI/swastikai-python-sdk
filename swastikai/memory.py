@@ -34,6 +34,9 @@ class personal_memory:
     def retrieve_memory(self, payload:retrievePersonalMemory):
         self.validate_payload(payload, retrievePersonalMemory)
         return self.post(endpoint="retrieve-memory",json_payload=payload)
+    
+    def get_account_balance(self):
+        return self.get(endpoint="get-account-balance")
 
     def get(self, endpoint: str, params: Optional[Dict] = None) -> Any:
         """GET request that supports query parameters."""
